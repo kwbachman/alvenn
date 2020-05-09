@@ -27,7 +27,8 @@ echo "Latitude: ".$val[0]['lat']."<br>";
 echo "Longitude: ".$val[0]['lon']."<br>";
 echo "Miles: ".$_POST["miles"]."<br>";
 
-$servername = "localhost";
+#$servername = "localhost";
+$servername = "mysql";
 $username = "dba";
 $password = "dbaalv1";
 $dbname = "alvenn";
